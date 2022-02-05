@@ -1,0 +1,43 @@
+.inital-page-main {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 30px 15px;
+  gap: 25px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .inital-page-main {
+    align-items: center;
+    padding: 30px 60px;
+    gap: 50px 0;
+  }
+
+  .form-container {
+    width: 560px;
+  }
+
+  .transactions-container {
+    width: 560px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .inital-page-main {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 30px 260px;
+    gap: 0;
+  }
+
+  .form-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 360px;
+    height: 560px;
+  }
+
+  .transactions-container {
+    width: 560px;
+  }
+}

@@ -1,63 +1,105 @@
 .main {
-  background: var(--gray-4);
-  height: 100vh;
+  background: var(--grey-4);
+  padding: 30px 15px;
+  min-height: 100vh;
 }
 
 .section {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  gap: 0 50px;
+  flex-flow: column nowrap;
+  gap: 50px 0;
 }
 
 .article {
   display: flex;
   flex-flow: column nowrap;
   color: var(--white);
-  max-width: 350px;
   gap: 30px 0;
 }
 
-.figure-container {
+.logo-container {
 }
 
-.figure-container__image {
+.logo-container__image {
+  width: 150px;
 }
 
-.title-container {
+.catchphrase-container {
 }
 
-.title-container__title {
+.catchphrase-container__title {
+  font-weight: bold;
   font-size: 38px;
-  font-weight: 800;
-  line-height: 48px;
-  margin: 0;
 }
 
-.paragraph-container {
+.complement-container {
 }
 
-.paragraph-container__paragraph {
+.complement-container__paragraph {
 }
 
-.button-container {
+.lading-page-button-container {
+  text-align: center;
 }
 
-.button-container__button {
-  background: var(--color-primary);
-  color: var(--white);
-  border: none;
-  border-radius: 8px;
-  width: 250px;
-  height: 50px;
-  cursor: pointer;
-}
-
-.button-container__button:hover {
-  background: var(--color-primary-2);
-  color: var(--gray-1);
+.lading-page--button {
+  font-family: var(--inter);
+  font-size: 16;
+  width: 240px;
 }
 
 .aside {
+}
+
+.mockup-container {
+  text-align: center;
+}
+
+.mockup-container__image {
+  width: 325px;
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    padding: 0 30px;
+    min-height: auto;
+    height: 100vh;
+  }
+
+  .section {
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 0 50px;
+  }
+
+  .article {
+    max-width: 350px;
+  }
+
+  .logo-container__image {
+    width: auto;
+  }
+
+  .catchphrase-container__title {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 48px;
+    margin: 0;
+  }
+
+  .lading-page-button-container {
+    text-align: left;
+  }
+
+  .mockup-container__image {
+    width: 415px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .mockup-container__image {
+    width: auto;
+  }
 }
