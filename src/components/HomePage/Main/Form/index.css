@@ -1,0 +1,137 @@
+.form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  background: var(--white);
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 30px 15px;
+  width: 345px;
+  height: 345px;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+  gap: 25px 0;
+}
+
+.description-container {
+}
+
+.description-container__label {
+  display: block;
+  font-family: var(--inter);
+  font-size: 12px;
+  color: var(--grey-4);
+}
+
+.description-container__input {
+  background: var(--gray-0);
+  border: none;
+  border-radius: 8px;
+  margin-top: 12px;
+  padding-left: 16px;
+  width: 100%;
+  height: 53px;
+}
+
+.description-container__input:focus {
+  outline: 2px solid var(--grey-4);
+}
+
+.example-container {
+  margin-top: 5px;
+  margin-bottom: 17px;
+}
+
+.example-container__paragraph {
+  font-family: var(--inter);
+  color: var(--grey-3);
+}
+
+.value-entry-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.value-container {
+}
+
+.value-container__label {
+  font-family: var(--inter);
+  font-size: 12px;
+  color: var(--gray-4);
+}
+
+.input-container {
+  background: var(--grey-0);
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 130px;
+}
+
+.input-container:focus-within {
+  outline: 1.2px solid var(--grey-4);
+}
+
+.input-container__input {
+  background: var(--grey-0);
+  border: none;
+  border-radius: 8px;
+  padding: 0;
+  padding-left: 16px;
+  width: 60%;
+  height: 53px;
+}
+
+.input-container__input:focus {
+  outline: none;
+}
+
+.input-container__span {
+  display: inline-block;
+  font-family: var(--inter);
+  font-size: 16px;
+  background: var(--grey-0);
+  color: var(--grey-3);
+}
+
+.entry-container {
+  max-width: 150px;
+}
+
+.entry-container_label {
+  font-family: var(--inter);
+  font-size: 12px;
+  color: var(--gray-4);
+}
+
+.entry-container_select {
+  background: var(--gray-0);
+  color: var(--grey-3);
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 140px;
+  height: 53px;
+}
+
+.entry-container_select:focus {
+  color: var(--grey-4);
+  outline: 1.2px solid var(--grey-4);
+}
+
+.add-transaction-container {
+  margin-top: 20px;
+}
+
+.add-transaction--button {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .form {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+}

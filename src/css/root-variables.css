@@ -1,0 +1,27 @@
+/* START IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+/* END IMPORTS */
+
+/* START ROOT VARIABLES */
+:root {
+  /* COLORS */
+  --color-primary: #fd377e;
+  --color-primary-2: #e34981;
+  --color-secondary: #03b898;
+
+  --grey-1: #f8f9fa;
+  --grey-2: #e9ecef;
+  --grey-3: #868e96;
+  --grey-4: #212529;
+
+  --white: #fff;
+  /* COLORS */
+
+  /* FONTS */
+  --nunito: "Nunito", sans-serif;
+  --inter: "Inter", sans-serif;
+  /* FONTS */
+}
+/* END ROOT VARIABLES */

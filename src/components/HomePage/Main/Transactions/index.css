@@ -1,0 +1,98 @@
+.transactions-body {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 30px;
+  height: 500px;
+  gap: 30px 0;
+  overflow-y: scroll;
+}
+
+.transactions-item {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  background: var(--grey-1);
+  border-radius: 4px;
+  padding: 8px 14px;
+  min-height: 85px;
+}
+
+.item--incomes {
+  border-left: 4px solid var(--color-secondary);
+}
+
+.item--expenses {
+  border-left: 4px solid var(--grey-2);
+}
+
+.item-top {
+  display: flex;
+  align-items: center;
+  gap: 0 30px;
+}
+
+.item-title-container {
+  margin-right: auto;
+}
+
+.item-title-container__title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.item-value-container {
+}
+
+.item-value-container__span {
+  font-size: 12px;
+  color: var(--grey-3);
+}
+
+.item-bottom {
+}
+
+.item-bottom__span {
+  font-size: 12px;
+  color: var(--grey-3);
+}
+
+.empty-card {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  background: var(--grey-1);
+  border-left: 4px solid var(--grey-2);
+  padding: 24px 10px;
+  height: 90px;
+}
+
+.empty-card__rec1 {
+  background: var(--grey-2);
+  height: 13px;
+}
+
+.empty-card__rec2 {
+  background: var(--grey-2);
+  width: 20%;
+  height: 13px;
+}
+
+@media only screen and (min-width: 768px) {
+  .empty-card__rec1 {
+    background: var(--grey-2);
+    max-width: 60%;
+    height: 13px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .transactions-body::-webkit-scrollbar {
+    background: transparent;
+    width: 10px;
+  }
+
+  .transactions-body::-webkit-scrollbar-thumb {
+    background: var(--grey-3);
+    border-radius: 30px;
+  }
+}

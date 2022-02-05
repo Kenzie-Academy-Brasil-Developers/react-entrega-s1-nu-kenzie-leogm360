@@ -1,0 +1,6 @@
+@import url(./css/root-variables.css);
+
+body {
+  font-family: var(--nunito);
+  min-height: 100vh;
+}

@@ -1,0 +1,18 @@
+.button-delete {
+  display: flex;
+  background: var(--grey-2);
+  color: var(--grey-3);
+  border: none;
+  border-radius: 8px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.button-delete:hover {
+  background: var(--grey-3);
+  color: var(--grey-1);
+}
+
+.pointer--events {
+  pointer-events: none;
+}
