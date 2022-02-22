@@ -8,7 +8,7 @@ const Transactions = ({ transactions, setTransactions }) => {
     const filteredAll = all.filter(
       ({ description }) => description !== entryDescription
     );
-    console.log(filteredAll);
+
     setTransactions(filteredAll);
 
     localStorage.setItem("transactions", JSON.stringify(filteredAll));
