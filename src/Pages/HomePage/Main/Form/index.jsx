@@ -1,6 +1,6 @@
 import "./index.css";
 import { useState } from "react";
-import ButtonPrimary from "../../../Buttons/ButtonPrimary/index.jsx";
+import ButtonPrimary from "../../../../components/Buttons/ButtonPrimary/index.jsx";
 
 const Form = ({ handleTransactions }) => {
   const [entry, setEntry] = useState({

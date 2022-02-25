@@ -1,6 +1,6 @@
 import "./index.css";
-import ButtonPrimary from "../../../Buttons/ButtonPrimary/index.jsx";
-import ButtonGrey from "../../../Buttons/ButtonGrey/index.jsx";
+import ButtonPrimary from "../../../../components/Buttons/ButtonPrimary/index.jsx";
+import ButtonGrey from "../../../../components/Buttons/ButtonGrey/index.jsx";
 
 const Header = ({ setTransactions }) => {
   const handleAll = () => {

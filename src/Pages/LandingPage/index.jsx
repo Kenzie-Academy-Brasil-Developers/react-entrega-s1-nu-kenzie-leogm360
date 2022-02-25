@@ -1,5 +1,5 @@
 import "./index.css";
-import ButtonPrimary from "../Buttons/ButtonPrimary/index.jsx";
+import ButtonPrimary from "../../components/Buttons/ButtonPrimary/index.jsx";
 
 const LandingPage = ({ changePages }) => {
   return (
