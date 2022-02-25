@@ -1,6 +1,6 @@
 import { useState } from "react";
-import LandingPage from "../LandingPage/index.jsx";
-import HomePage from "../HomePage/index.jsx";
+import HomePage from "./Pages/HomePage/index.jsx";
+import LandingPage from "./Pages/LandingPage/index.jsx";
 
 function App() {
   const [isInLandingPage, setIsInLandingPage] = useState(true);

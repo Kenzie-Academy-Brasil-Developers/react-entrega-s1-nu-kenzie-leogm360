@@ -1,5 +1,5 @@
 import "./index.css";
-import ButtonGrey from "../../Buttons/ButtonGrey/index.jsx";
+import ButtonGrey from "../../../components/Buttons/ButtonGrey/index.jsx";
 
 const Header = ({ changePages }) => {
   return (

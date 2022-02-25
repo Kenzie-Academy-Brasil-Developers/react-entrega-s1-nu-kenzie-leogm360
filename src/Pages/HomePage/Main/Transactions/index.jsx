@@ -1,5 +1,5 @@
 import "./index.css";
-import ButtonDelete from "../../../Buttons/ButtonDelete/index.jsx";
+import ButtonDelete from "../../../../components/Buttons/ButtonDelete/index.jsx";
 
 const Transactions = ({ transactions, setTransactions }) => {
   const handleDelete = (entryDescription) => {
